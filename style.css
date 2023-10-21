@@ -13,7 +13,7 @@
 
 .row {
     background-color: rgb(255 189 92);
-    border: 3px dashed black; 
+    border: 2px dashed black; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,14 +23,14 @@
 .column-1 {
     flex: 1;
     text-align: start;
-    border-right: 3px dashed black;
+    border-right: 3.5px dashed black;
     padding: 10px;
 }
 
 .column-2 {
     flex: 2; 
     text-align: center;
-    border-right: 3px dashed black;
+    border-right: 3.5px dashed black;
     padding: 10px;
 }
 
@@ -52,7 +52,7 @@
 .debug .container1_main{
     background-color: #d170d5;
     height: 100%;
-    border: 3px dashed black;
+    border: 2px dashed black;
 
 }
 .debug .container2_main{
@@ -68,7 +68,7 @@
     flex: 1.5;
     height: 100%;
     background-color: #42a0fff7;
-    border: 3px dashed black;
+    border: 2px dashed black;
 
 }
 
@@ -76,7 +76,16 @@
     flex: 1;
     height: 100%;
     background-color: #ffc3ce;
-    border: 3px dashed black;
+    border: 2px dashed black;
+
+}
+
+.debug .container3_main{
+    background-color: #8080804f;
+    display: flex;
+    height: 300px;
+    padding: 2rem 20rem;
+
 
 }
 
@@ -92,3 +101,7 @@
 .item1{}
 
 .item2{}
+
+.third_section{}
+
+.container3_main{}
