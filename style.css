@@ -1,0 +1,40 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #aadaeb;
+    text-align: center;
+    padding: 20px 12rem;
+}
+
+.row {
+    background-color: rgb(255 189 92);
+    border: 3px dashed black; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ 
+.column-1 {
+    flex: 1;
+    text-align: start;
+    border-right: 3px dashed black;
+    padding: 10px;
+}
+
+.column-2 {
+    flex: 2; 
+    text-align: center;
+    border-right: 3px dashed black;
+    padding: 10px;
+}
+
+.column-3{
+    flex: 1;
+    text-align: end;
+    padding: 10px;
+}
