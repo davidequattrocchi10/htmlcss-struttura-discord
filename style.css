@@ -55,9 +55,40 @@
     border: 3px dashed black;
 
 }
+.debug .container2_main{
+    background-color: white;
+    display: flex;
+    height: 300px;
+    padding: 2rem 20rem;
 
+
+}
+
+.debug .item1{
+    flex: 1.5;
+    height: 100%;
+    background-color: #42a0fff7;
+    border: 3px dashed black;
+
+}
+
+.debug .item2{
+    flex: 1;
+    height: 100%;
+    background-color: #ffc3ce;
+    border: 3px dashed black;
+
+}
 
 /* Main */
 .first_section{}
 
 .container1_main{}
+
+.second_section{}
+
+.container2_main{}
+
+.item1{}
+
+.item2{}
