@@ -4,10 +4,11 @@
     padding: 0;
 }
 
+/* Header */
 .container {
     background-color: #aadaeb;
     text-align: center;
-    padding: 20px 12rem;
+    padding: 20px 20rem;
 }
 
 .row {
@@ -38,3 +39,25 @@
     text-align: end;
     padding: 10px;
 }
+
+/* Main Debug*/
+
+.debug .first_section{
+    background-color: #040ca2;
+    height: 240px;
+    padding: 2rem 27rem;
+    
+}
+
+.debug .container1_main{
+    background-color: #d170d5;
+    height: 100%;
+    border: 3px dashed black;
+
+}
+
+
+/* Main */
+.first_section{}
+
+.container1_main{}
