@@ -44,7 +44,7 @@
 
 .debug .first_section{
     background-color: #040ca2;
-    height: 240px;
+    height: 290px;
     padding: 2rem 27rem;
     
 }
@@ -58,7 +58,7 @@
 .debug .container2_main{
     background-color: white;
     display: flex;
-    height: 300px;
+    height: 350px;
     padding: 2rem 20rem;
 
 
@@ -83,14 +83,14 @@
 .debug .container3_main{
     background-color: #8080804f;
     display: flex;
-    height: 300px;
+    height: 350px;
     padding: 2rem 20rem;
 
 }
 
 .debug .fifth_section{
     background-color: #8080804f;
-    height: 570px;
+    height: 600px;
     padding: 2rem 20rem;
     
 }
@@ -99,6 +99,31 @@
     background-color: green;
     height: 100%;
     border: 2px dashed black;
+
+}
+
+.debug .row_container{
+    background-color: black;
+    display: flex;
+    height: 400px;
+    padding: 1rem 20rem 2rem 20rem;
+
+
+}
+
+.debug .column_main{
+    flex: 2;
+    height: 100%;
+    background-color: #d67979;
+    border: 2px dashed black;
+
+}
+
+.debug .column_minor{
+    flex: 1;
+    height: 100%;
+    background-color: #4aa6a3;
+    border: 2px dashed white;
 
 }
 
@@ -120,3 +145,13 @@
 .container3_main{}
 
 .fourth_section{}
+
+.fifth_section{}
+
+.container4_main{}
+
+.row_container{}
+
+.column_main{}
+
+.column_minor{}
