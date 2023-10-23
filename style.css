@@ -155,3 +155,35 @@
 .column_main{}
 
 .column_minor{}
+
+hr{
+    background-color: white;
+}
+
+/* Footer */
+
+footer {
+    background-color: black;
+    padding: 1rem 20rem 0rem 20rem;
+}
+
+.container_footer {
+    background-color: #38f6d1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+ 
+.logo {
+    border: 2px dashed black;
+    background-color: #ffc0c0;
+    padding: 5px;
+}
+
+.button{
+    border: 2px dashed black;
+    background-color: #ffc0c0;
+    padding: 5px;
+}
